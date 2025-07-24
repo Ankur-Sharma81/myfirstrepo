@@ -360,7 +360,7 @@ public static void main(String args[]){
 }
 }*/
                     //Function overloading with parameter.
-/*import java.util.Scanner;
+import java.util.Scanner;
 public class Main{
     public static int sum(int a, int b){
         return a+b;
@@ -373,7 +373,7 @@ public class Main{
          System.out.println(sum(2 , 3 , 5));
 
     }
-}*/
+}
                              // Check if a number is prime or not.
 /*import java.util.Scanner;
 public class Main{
@@ -420,7 +420,7 @@ public class Main{
 
 
                    // print all primes in a Range.n = 20 or anything.
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Main{
     public static void  primeInRange(int n){
         for(int i=2;i<=n;i++){
@@ -433,10 +433,9 @@ public class Main{
     }
 public static void isprime(int n){
     for(int i=0;i<Sqrt.math(n);i++){
-        if(i%n==0){
-            return false;
+        if(i%n==0)
+        return false;
 
-        }
     }
     return true;
 }
@@ -446,3 +445,4 @@ public static void main(String args[]){
 
     
 }
+*/
