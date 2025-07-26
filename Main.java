@@ -1,4 +1,4 @@
-                   // PRINT 1 TO N.
+                   //  1. PRINT 1 TO N.
 /*import java.util.Scanner;
 class Main{
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ class Main{
     }
     }
 }*/
-                    // SUM OF FIRST N NATURAL NUMBER
+                    // 2. SUM OF FIRST N NATURAL NUMBER
 /*import java.util.Scanner;
 class Main{
     public static void main(String args[]) {
@@ -29,7 +29,7 @@ while(i <= n) {
 
 }
 */
-                       //FOR LOOP
+                       //3. FOR LOOP
 /*import java.util.Scanner;
 class Main{
     public static void main(String[] args) {
@@ -41,7 +41,7 @@ for(i = 0; i<=1000; i++) {
 
 }
 */
-                   //SQUARE NUMBER
+                   //4. SQUARE NUMBER
 /*import java.util.*;
 public class Main{
     public static void main(String[] args) {
@@ -52,7 +52,7 @@ public class Main{
 
     }
 }*/ 
-                  //SQUARE NUMBER.
+                  //5. SQUARE NUMBER.
 /*import java.util.Scanner;
 class Main{
     public static void main(String[]  args){
@@ -63,7 +63,7 @@ class Main{
     }
     }
 }*/
-                  // SQUARE NUMBER
+                  //6. SQUARE NUMBER
 /*import java.util.Scanner;
 class Main{
     public static void main(String args[]) {
@@ -75,7 +75,7 @@ class Main{
 }
 */
 
-          // REVERSE OF A NUMBER.
+                // 8. REVERSE OF A NUMBER.
 /*
 import java.util.Scanner;
 public class Main{
@@ -90,7 +90,7 @@ public class Main{
 }
 */
         
-                    // Reverse of a given  number
+                    //9. Reverse of a given  number
 /*import java.util.Scanner;
 class Main{
     public static void main(String[] args) {
@@ -106,7 +106,7 @@ class Main{
     }
 }
 */
-                  // Using do while loop to print Helloworld.
+                  // 10. Using do while loop to print Helloworld.
 /*                  
 import java.util.Scanner;
 public class Main{
@@ -121,7 +121,7 @@ public class Main{
     }
 }
 */
-                     // code using Break Statement using while loop.
+                     //11. code using Break Statement using while loop.
 /*                      
 import java.util.Scanner;
 public class Main{
@@ -138,7 +138,7 @@ public class Main{
     }
 }
 */
-                           // break statement using for loop.
+                           // 12. break statement using for loop.
 /*
 import java.util.Scanner;
 public class Main{
@@ -154,7 +154,7 @@ public class Main{
     }
 }
 */
-          //Keep entering number till user enter a multiple of 10. 
+               //13. Keep entering number till user enter a multiple of 10. 
 /*import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
@@ -172,7 +172,7 @@ public class Main{
 
 }
 */
-                   // Continue Statement.
+                   //14. Continue Statement.
 /* 
 import java.util.Scanner;
 public class Main{
@@ -186,7 +186,7 @@ public class Main{
     }
 }
 */
-         //display all number enter by user except  multiple of 10. 
+              //15. display all number enter by user except  multiple of 10. 
 /*import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
@@ -202,7 +202,7 @@ public class Main{
     
 }
 */
-
+                              //16. Continue statement using do while loop.
 /*import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
@@ -219,7 +219,7 @@ public class Main{
     }
 
 } */
-                        // Print Star Pattern.
+                        // 18. Print Star Pattern.
 /*
 import java.util.Scanner;
 public class Main{
@@ -233,7 +233,7 @@ public class Main{
     }
 } 
 */
-                      // print pattern in inverted(max to min) form.
+                      //19. print pattern in inverted(max to min) form.
 /* 
 import java.util.scanner;
 public class Main{
@@ -248,7 +248,7 @@ public class Main{
     }
 }
 */
-                         // how to print half Pyramid Method.                          
+                         //20. how to print half Pyramid Method.                          
 /*import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
@@ -261,7 +261,7 @@ public class Main{
     }
     }
 }*/
-                       //Print character of Pattern.
+                       //21. Print character of Pattern.
 /*import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
@@ -278,7 +278,7 @@ public class Main{
     }
 
 }*/
-                      // print Pattern using small Alphabets.
+                      //22. print Pattern using small Alphabets.
 /*import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
@@ -295,7 +295,7 @@ public class Main{
 }
 */
 
-                         // Functions/Methods.
+                         //23. Functions/Methods.
 /*import java.util.Scanner;
 public class Main{
     public static void printHelloWorld() {
@@ -310,7 +310,7 @@ public class Main{
 }
 */
  
-                           // Swap of number.
+                           //24. Swap of number.
 /* 
 import java.util.Scanner;
 public class Main{
@@ -326,7 +326,7 @@ public class Main{
     
 }
 */
-                            // Factorial of n!.
+                            //25. Factorial of n!.
 /*import java.util.Scanner;
 public class Main{
     public static int factorial(int n){
@@ -342,7 +342,7 @@ public static void main(String args[]){
 }
 }*/
 
-                    // binomial coefficient of n.
+                    //26. binomial coefficient of n.
 /*import java.util.Scanner;
 public class Main{
 
@@ -359,7 +359,7 @@ public static void main(String args[]){
 
 }
 }*/
-                    //Function overloading with parameter.
+                    //27. Function overloading with parameter.
 /*import java.util.Scanner;
 public class Main{
     public static int sum(int a, int b){
@@ -374,7 +374,7 @@ public class Main{
 
     }
 }*/
-                             // Check if a number is prime or not.
+                        //28. Check if a number is prime or not.
 /*import java.util.Scanner;
 public class Main{
     public static boolean isprime(int n){
@@ -393,7 +393,7 @@ public class Main{
         System.out.println(isprime(5));
 
     }
-}*/                    //2nd method : Check if a number is prime or not.
+}*/                    //29. 2nd method : Check if a number is prime or not.
 /*import java.util.Scanner;
 public class Main{
     public static boolean isprime(int n){
@@ -414,7 +414,7 @@ public class Main{
     }
 }
 */
-                        //check if a number is prime or not.
+                        //30. check if a number is prime or not.
 
 
 
@@ -446,24 +446,40 @@ public static void main(String args[]){
     
 }
 */
-                // Code of Decimal to Binary Conversion.
-import java.util.Scanner;
-public Class Main{
-    int pow = 0;
-    int binNum=0;
-    public static void BintoDec(int n ){
-        while(n>0){
-             rem = n%2;
-        binNum = binNum + rem * Math.pow(10, pow);
-        pow++;
-        n = n/2;
-
+                // 31. Code of Decimal to Binary Conversion.
+/*import java.util.Scanner;
+public class Main{
+ public static void dectoBin(int n){
+        int myNum = n;
+        int pow = 0;
+        int binNum = 0;
+        while(n >0){
+            int rem = n % 2;
+            binNum = binNum + (rem * (int)Math.pow(10, pow));
+            pow++;
+            n = n/2;
         }
-        return binNum;
-       
+        System.out.println("binary form of"  + myNum + " = " + binNum);
     }
     public static void main(String[] args){
-        BintoDec(7);
-        System.out.println("Binary to Decimal Conversion is: " + binNum);
+        dectoBin(15);
     }
-}                            
+}*/
+import java.util.Scanner;
+class Main{
+    public static void hollow_rectangle(int n, int m){
+        for(int i = 1; i<=n; i++){
+            for(int j =1; j<=m; j++){
+                if(i == 1 || i == n ||j == 1 || j == m){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    public static void main(String[] args){
+        hollow_rectangle(5,4);
+    }
+}
