@@ -30,7 +30,7 @@ public class Git{
 
     }
 }*/
-public class Git{
+/*public class Git{
   public static void dectoBin(int n){
         int myNum = n;
         int pow = 0;
@@ -46,4 +46,5 @@ public class Git{
     public static void main(String[] args){
         dectoBin(15);
     }
-}
+}*/
+
