@@ -360,7 +360,7 @@ public static void main(String args[]){
 }
 }*/
                     //Function overloading with parameter.
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Main{
     public static int sum(int a, int b){
         return a+b;
@@ -373,7 +373,7 @@ public class Main{
          System.out.println(sum(2 , 3 , 5));
 
     }
-}
+}*/
                              // Check if a number is prime or not.
 /*import java.util.Scanner;
 public class Main{
@@ -393,7 +393,7 @@ public class Main{
         System.out.println(isprime(5));
 
     }
-}*/                      //2nd method : Check if a number is prime or not.
+}*/                    //2nd method : Check if a number is prime or not.
 /*import java.util.Scanner;
 public class Main{
     public static boolean isprime(int n){
@@ -446,3 +446,24 @@ public static void main(String args[]){
     
 }
 */
+                // Code of Decimal to Binary Conversion.
+import java.util.Scanner;
+public Class Main{
+    int pow = 0;
+    int binNum=0;
+    public static void BintoDec(int n ){
+        while(n>0){
+             rem = n%2;
+        binNum = binNum + rem * Math.pow(10, pow);
+        pow++;
+        n = n/2;
+
+        }
+        return binNum;
+       
+    }
+    public static void main(String[] args){
+        BintoDec(7);
+        System.out.println("Binary to Decimal Conversion is: " + binNum);
+    }
+}                            
