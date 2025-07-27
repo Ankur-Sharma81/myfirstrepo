@@ -465,7 +465,7 @@ public class Main{
         dectoBin(15);
     }
 }*/
-import java.util.Scanner;
+/*import java.util.Scanner;
 class Main{
     public static void hollow_rectangle(int n, int m){
         for(int i = 1; i<=n; i++){
@@ -481,5 +481,21 @@ class Main{
     }
     public static void main(String[] args){
         hollow_rectangle(5,4);
+    }
+}*/
+import java.util.Scanner;
+public class Main{
+    public static void Update(int marks[]){
+        for(int i =0; i<marks.length; i++){
+            marks[i] = marks[i] + 1;
+        }
+    }
+    public static void main(String[] args){
+        int marks[] = {97, 98, 99};
+        Update(marks);
+        for(int i =0; i<marks.length; i++){
+            System.out.print(marks[i] + " ");
+        }
+        System.out.println();
     }
 }
