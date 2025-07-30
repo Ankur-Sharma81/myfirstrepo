@@ -485,23 +485,22 @@ class Main{
 }*/
 import java.util.Scanner;
 public class Main{
-    public static int linearsearch(int numbers[], int key){
+    public static int GetLargest(int numbers[]){
+        int largest = Integer.MIN_VALUE;
+        int smallest = Integer.MAX_VALUE;
         for(int i = 0; i<numbers.length; i++){
-            if(numbers[i] == key){
-                return i;
+            if(largest < numbers[i]){
+                largest = numbers[i];
+            }
+            if(smallest > numbers[i]){
+                smallest = numbers[i];
             }
         }
-        return -1;
+        System.out.println("smallest value is: " + smallest); 
+        return largest;  
     }
     public static void main(String[] args){
-        int numbers[] = {2,4,6,8,10,12,14,26};
-        int key = 14;
-        int index = linearsearch(numbers, key);
-        if(index == -1){
-            System.out.print("Not found");
-        }
-        else{
-            System.out.print("found at index: " + index);
-        }
+        int numbers[] = {1,2,6,3,5};
+        System.out.println("largest value is: " + GetLargest(numbers));    
     }
 }

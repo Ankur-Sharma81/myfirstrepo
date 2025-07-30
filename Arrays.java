@@ -15,7 +15,7 @@ public class Arrays{
     }
 }
 */
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class Main{
     public static int linearsearch(int numbers[], int key){
         for(int i = 0; i<numbers.length; i++){
@@ -37,5 +37,25 @@ public class Main{
         }
     }
 }
-
-
+*/
+import java.util.Scanner;
+public class Arrays{
+    public static int GetLargest(int numbers[]){
+        int largest = Integer.MIN_VALUE;
+        int smallest = Integer.MAX_VALUE;
+        for(int i = 0; i<numbers.length; i++){
+            if(largest < numbers[i]){
+                largest = numbers[i];
+            }
+            if(smallest > numbers[i]){
+                smallest = numbers[i];
+            }
+        }
+        System.out.println("smallest value is: " + smallest); 
+        return largest;  
+    }
+    public static void main(String[] args){
+        int numbers[] = {12,20,35,28,36,16,30};
+        System.out.println("largest value is: " + GetLargest(numbers));    
+    }
+}
