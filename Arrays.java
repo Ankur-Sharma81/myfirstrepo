@@ -1,3 +1,4 @@
+              // This code demonstrates how to update the elements of an array by incrementing each element by 1.
 /*import java.util.Scanner;
 public class Arrays{
     public static void Update(int marks[]){
@@ -15,6 +16,7 @@ public class Arrays{
     }
 }
 */
+                               // This code performs linear search on an array of integers to find a specific key.
 /*import java.util.Scanner;
 public class Main{
     public static int linearsearch(int numbers[], int key){
@@ -38,7 +40,8 @@ public class Main{
     }
 }
 */
-import java.util.Scanner;
+                               // This code finds the largest number in an array and also finds the smallest number.  
+/*import java.util.Scanner;
 public class Arrays{
     public static int GetLargest(int numbers[]){
         int largest = Integer.MIN_VALUE;
@@ -55,7 +58,180 @@ public class Arrays{
         return largest;  
     }
     public static void main(String[] args){
-        int numbers[] = {12,20,35,28,36,16,30};
+        int numbers[] = {25,20,35,28,36,16,30,40,50};
         System.out.println("largest value is: " + GetLargest(numbers));    
     }
+}*/
+                     // This code reverses an array of integers.
+/*import java.util.Scanner;
+public class Arrays{
+    public static void reverse(int number[]){
+        int first = 0;
+        int last = number.length-1;
+        while(first<last){
+            int temp =  number[last];
+            number[last] = number[first];
+            number[first] = temp;
+            first++;
+            last--;
+        }
+    }
+    public static void main(String[] args){
+        int number[] = {2,4,6,7,9,8};
+        reverse (number);
+        for(int i=0 ; i<number.length; i++){
+            System.out.print(number[i] + " ");
+
+        }
+
+    }
+
+}*/
+                             // This code prints all pairs of elements in an array.
+/*import java.util.Scanner;
+public class Arrays {
+    public static void pairs(int number[]){
+        for(int i = 0; i<number.length; i++){
+            int ankur = number[i];
+            for (int j=i+1; j< number.length; j++){
+                System.out.print("(" + ankur + ", " + number[j] + ")");
+            }
+            System.out.println();
+        }
+    }
+    public static void main(String args[]){
+        int number[] = {2,4,6,8,9};
+        pairs(number);
+    }
+}*/
+/*import java.util.Scanner;
+public class Arrays{
+    public static void subarrays(int numbers[]){
+        for(int i=0; i<numbers.length; i++){
+            int start = i;
+            for(int j =i; j<numbers.length; j++){
+                int End = j;
+                for(int k = start; k <= End; k++){
+                    System.out.print(numbers[k] + " ");
+
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
 }
+    public static void main(String[] args){
+        int numbers[] = {2,4,6,8,9};
+        subarrays(numbers); 
+    }
+}
+
+*/
+/*import java.util.Scanner;
+public class Arrays{
+    public static void Maxsubarray(int numbers[]){
+        int CurrSum = 0;
+        int MaxSum = Integer.MIN_VALUE;
+        for(int i=0; i<numbers.length; i++){
+            int start = i;
+            for(int j =i; j<numbers.length; j++){
+                int End = j;
+                for(int k = start; k <= End; k++){
+                    CurrSum += numbers[k];
+
+            }
+            System.out.println(CurrSum);
+            if(MaxSum < CurrSum){
+                MaxSum = CurrSum;
+            }
+        }
+    }
+    System.out.println("MaxSum =" +MaxSum);
+}
+    public static void main(String[] args){
+        int numbers[] = {2,4,6,8,9};
+        Maxsubarray(numbers); 
+    }
+}*/
+            /* This code implements the Bubble Sort algorithm to sort an array of integers in ascending order.
+import java.util.Scanner;
+public class Arrays{
+    public static void Bubble(int arr[]){
+        for(int turn = 0; turn<arr.length; turn++){
+            for(int j = 0; j < arr.length-1-turn; j++){
+                if(arr[j] > arr[j+1]){
+                   int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+    }
+    public static void printArr(int arr[]){
+        for(int i = 0; i<arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+    public static void main(String[] args){
+        int arr[] = {5,4,1,3,2};
+        Bubble(arr);
+        printArr(arr);
+
+    }
+}
+*/
+
+             //This code implements the Bubble Sort algorithm to sort an array of integers in ascending order.
+import java.util.Scanner;
+public class Arrays{
+    public static void Bubble(int arr[]){
+        for(int turn = 0; turn<arr.length; turn++){
+            for(int j = 0; j < arr.length-1-turn; j++){
+                if(arr[j] > arr[j+1]){
+                   int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+         for(int i = 0; i<arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+    }
+
+    
+    public static void main(String[] args){
+        int arr[] = {5,4,1,3,2};
+        Bubble(arr);
+    }
+}   
+
+/*              //This code implements the Selection Sort algorithm to sort an array of integers in descending order.
+import java.util.scanner;
+public class Arrays{
+    public static void selectionsort(int arr[]){
+        for(int i = 0; i<arr.length-1; i++){
+            int minpos = i;
+            for(int j =i+1; j<arr.length; j++){
+                if(arr[minpos] < arr[j]){
+                    minpos = j;
+                }
+
+            }
+            int temp = arr[minpos];
+            arr[minpos] = arr[i];
+            arr[i] = temp;
+
+        }
+        for(int i = 0; i<arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+    }
+    public static void main(String[] args){
+        int arr[] = {5,4,1,3,2};
+        selectionsort(arr);
+
+    }
+}          
+*/

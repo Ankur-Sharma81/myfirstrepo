@@ -1,0 +1,25 @@
+*{
+    margin: 100px;
+    padding: 90px;
+    box-sizing: border-box;
+}
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    display : flex;
+    justify-content: center;
+}
+
+
+.todocontainer {
+    width: 400px;
+    height: 100%;
+    width : 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
