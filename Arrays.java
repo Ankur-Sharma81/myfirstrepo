@@ -127,6 +127,7 @@ public class Arrays{
 }
 
 */
+                                // This code finds the maximum subarray sum using a brute force approach.
 /*import java.util.Scanner;
 public class Arrays{
     public static void Maxsubarray(int numbers[]){
@@ -182,8 +183,8 @@ public class Arrays{
 }
 */
 
-             //This code implements the Bubble Sort algorithm to sort an array of integers in ascending order.
-import java.util.Scanner;
+             //This code implements the Bubble Sort algorithm to sort an array of integers in decending order.
+/*import java.util.Scanner;
 public class Arrays{
     public static void Bubble(int arr[]){
         for(int turn = 0; turn<arr.length; turn++){
@@ -205,16 +206,16 @@ public class Arrays{
         int arr[] = {5,4,1,3,2};
         Bubble(arr);
     }
-}   
+}*/   
 
-/*              //This code implements the Selection Sort algorithm to sort an array of integers in descending order.
+              
 import java.util.scanner;
 public class Arrays{
     public static void selectionsort(int arr[]){
         for(int i = 0; i<arr.length-1; i++){
             int minpos = i;
             for(int j =i+1; j<arr.length; j++){
-                if(arr[minpos] < arr[j]){
+                if(arr[minpos] > arr[j]){
                     minpos = j;
                 }
 
@@ -234,4 +235,4 @@ public class Arrays{
 
     }
 }          
-*/
+
